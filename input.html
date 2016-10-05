@@ -1,6 +1,13 @@
 <!DOCTYPE.html>
 <html>
 <head>
+  <script>
+    function getName(){
+      var fullName;
+      fullName=document.getElementById("first").value;
+      document.getElementById("message").innerHTML=fullName;
+    }
+  </script>
 <title>
   Gathering Input
 </title>
@@ -9,7 +16,7 @@
   <input type="text" id="first">
   <input type="text" id="last">
   <button type="doneButton"
-          onclick="getName()".innerHTML="Done">
+          onclick="getName()".innerHTML="Done"> Done
   </button>
 <p
 id="message">
