@@ -3,9 +3,11 @@
 <head>
   <script>
     function getName(){
-      var fullName;
+      var fullName, lastName;
       fullName=document.getElementById("first").value;
-      document.getElementById("message").innerHTML=fullName;
+
+      lastName=document.getElementById("last").value;
+      document.getElementById("message").innerHTML=fullName + " "+lastName;
     }
   </script>
 <title>
